@@ -1,6 +1,6 @@
 # Leetcode-Practice
 
-Structured solutions to LeetCode problems in Python/TypeScript. Organized by topic and difficulty, continuously updated to track my problem solving skills.
+Structured solutions to LeetCode problems in Python. Organized by topic and difficulty, continuously updated to track my problem solving skills.
 
 ## Structure
 
