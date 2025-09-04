@@ -12,13 +12,13 @@ Each file includes: problem link, difficulty, brief explanation, and solution.
 
 ## Progress Tracker
 
-Easy: 12
+Easy: 13
 
-Medium: 3
+Medium: 4
 
 Hard: 0
 
-Total: 15
+Total: 17
 
 (updated regularly)
 
