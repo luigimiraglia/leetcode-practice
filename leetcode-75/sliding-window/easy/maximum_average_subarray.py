@@ -8,7 +8,7 @@
 # Return greatest sum / k
 
 class Solution:
-    def findMaxAverage(self, nums: List[int], k: int) -> float:
+    def findMaxAverage(self, nums: list[int], k: int) -> float:
         window = sum(nums[:k])
         best = window
         for i in range(k, len(nums)):

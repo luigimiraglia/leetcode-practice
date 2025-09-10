@@ -7,8 +7,9 @@
 from typing import List
 from collections import deque
 
+
 class Solution:
-    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
+    def canVisitAllRooms(self, rooms: List[list[int]]) -> bool:
         visited = {0}
         q = deque([0])
 

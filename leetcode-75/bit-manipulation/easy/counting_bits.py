@@ -6,8 +6,9 @@
 
 from typing import List
 
+
 class Solution:
-    def countBits(self, n: int) -> List[int]:
+    def countBits(self, n: int) -> list[int]:
         arr = [0] * (n + 1)
         for i in range(n + 1):
             arr[i] = arr[i >> 1] + (i & 1)

@@ -7,8 +7,9 @@
 from collections import deque
 from typing import List
 
+
 class Solution:
-    def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
+    def nearestExit(self, maze: List[List[str]], entrance: list[int]) -> int:
         m, n = len(maze), len(maze[0])
         sr, sc = entrance
         q = deque([(sr, sc, 0)])

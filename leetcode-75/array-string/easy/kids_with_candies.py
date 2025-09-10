@@ -5,6 +5,7 @@
 
 from typing import List
 
-def kidsWithCandies(candies: List[int], extraCandies: int) -> List[bool]:
+
+def kidsWithCandies(candies: list[int], extraCandies: int) -> List[bool]:
     most_candies = max(candies)
     return [kid + extraCandies >= most_candies for kid in candies]

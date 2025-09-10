@@ -8,7 +8,7 @@
 # Time complexity O(n), Space complexity O(1)
 
 class Solution:
-    def moveZeroes(self, nums: List[int]) -> None:
+    def moveZeroes(self, nums: list[int]) -> None:
         L, R = 0, 1
         n = len(nums)
         while R < n:

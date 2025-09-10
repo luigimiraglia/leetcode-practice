@@ -6,7 +6,8 @@
 
 from typing import List
 
-def canPlaceFlowers(flowerbed: List[int], n: int) -> bool:
+
+def canPlaceFlowers(flowerbed: list[int], n: int) -> bool:
     left = n
 
     for i in range(len(flowerbed)):

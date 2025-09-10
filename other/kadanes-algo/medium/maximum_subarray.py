@@ -8,7 +8,7 @@
 # If current sum < 0, reset it to 0.
 
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
+    def maxSubArray(self, nums: list[int]) -> int:
         maxSum = curSum = nums[0]
         for num in nums[1:]:
             curSum = max(curSum, 0)

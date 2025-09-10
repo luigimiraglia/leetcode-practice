@@ -6,7 +6,7 @@
 # Time complexity: O(n), space complexity O(n)
 
 class Solution:
-    def uniqueOccurrences(self, arr: List[int]) -> bool:
+    def uniqueOccurrences(self, arr: list[int]) -> bool:
         occurr = {}
         uniqueValues = set()
 
