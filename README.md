@@ -14,11 +14,11 @@ Each file includes: problem link, difficulty, brief explanation, and solution.
 
 Easy: 21
 
-Medium: 15
+Medium: 17
 
 Hard: 0
 
-Total: 36
+Total: 38
 
 (updated regularly)
 
